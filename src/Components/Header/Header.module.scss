@@ -1,0 +1,30 @@
+
+@use "../../styles/colors" as c;
+
+.header {
+    width: 100%;
+    min-height: 50px;
+    background-color: c.$color-primary;
+    color: c.$color-white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        max-width: 80px;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+        
+
+        a {
+          text-decoration: none;
+          color: c.$color-white;
+          font-weight: bold;
+          font-size: 22px;
+        }
+    }
+}
