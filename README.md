@@ -43,6 +43,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 
 1. Configuração do Projeto Inicial React e TypeScript
 2. Instalar a biblioteca SASS
+3. Criar o arquivo de estilos Globais
 
 
 
