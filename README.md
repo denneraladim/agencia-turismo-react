@@ -46,6 +46,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 3. Criar o arquivo de estilos Globais
 4. Criar a Pasta Components
 5. Criar o Componente Header
+6. Criar o Media Query do Header
 
 
 
