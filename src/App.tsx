@@ -1,6 +1,6 @@
 import Header from "./Components/Header"
 
-function App() {
+const App = () =>  {
   return (
     <>
       <Header/>
