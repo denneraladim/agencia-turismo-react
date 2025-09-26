@@ -45,8 +45,8 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 2. Instalar a biblioteca SASS
 3. Criar o arquivo de estilos Globais
 4. Criar a Pasta Components
-5. Criar o Componente Header
-6. Criar o Media Query do Header
+5. Criar o Componente Header e Footer
+6. Criar o Media Query do Header e Footer
 
 
 
