@@ -1,3 +1,4 @@
+import Container from "./Components/Container"
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 
@@ -5,10 +6,12 @@ const App = () =>  {
   return (
     <>
       <Header/>
-      Conteudo
+      <Container>
+        Conteudo
+      </Container>
       <Footer/>
     </>
   )
 }
 
-export default App
+export default App;
