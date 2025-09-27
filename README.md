@@ -1,6 +1,4 @@
 
-
-
 # Agencia Turismo React
 
 
@@ -53,6 +51,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 7. Criar a Pasta Pages
 8. Criar as Páginas Home, Sobre e Contatos
 9. Criar o arquivo de Rotas
+10. Criar a pagina Base
 
 
 
