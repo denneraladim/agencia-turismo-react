@@ -56,6 +56,5 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 
 
 
-
 ##  Funcionalidades
 

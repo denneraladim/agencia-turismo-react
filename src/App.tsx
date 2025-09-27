@@ -1,6 +1,5 @@
+
 import AppRoutes from "./routes";
-
-
 
 
 const App = () =>  {
