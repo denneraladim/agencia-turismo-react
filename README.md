@@ -22,7 +22,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 - [react](https://react.dev/)
 - [sass](https://sass-lang.com/)
 - [typeScript](https://www.typescriptlang.org/)
--[reactrouter](https://reactrouter.com/)
+- [reactrouter](https://reactrouter.com/)
 
 ## Clonar o Repositório:
 
