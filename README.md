@@ -2,7 +2,7 @@
 # Agencia Turismo React
 
 
-Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**  e Responsividade.
+Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**  e Responsividade.
 
 
 
