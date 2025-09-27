@@ -1,10 +1,25 @@
 import type { JSX } from "react";
 
+import styles from "./Sobre.module.scss";
+
+import SobreEmpresa from "../img/sobre-empresa.jpg";
+
 const Sobre = ():JSX.Element => {
     return (
-        <section>
+         <section className={styles.sobre}>
+        <div className={styles.content}>
+          <img src={SobreEmpresa} alt="Sobre a empresa" className={styles.agencia} />
+          <div className={styles.textos}>
             <h2>Sobre</h2>
-        </section>
+            <p>
+              Somos uma agência de turismo apaixonada por criar experiências
+              inesquecíveis para viajantes de todo o mundo. Com anos de
+              experiência no setor, nossa equipe está empenhada em proporcionar
+              viagens excepcionais, explorando destinos emocionantes e  proporcionando momentos únicos aos nossos clientes.
+            </p>
+          </div>
+        </div>
+      </section>
     )
 }
 
