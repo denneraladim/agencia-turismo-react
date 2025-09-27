@@ -47,6 +47,8 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 4. Criar a Pasta Components
 5. Criar o Componente Header,Footer e Container
 6. Criar o Media Query do Header e Footer
+7. Criar a Pasta Pages
+8. Cria a Pagina Home
 
 
 
