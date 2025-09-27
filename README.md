@@ -52,6 +52,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 6. Criar o Media Query do Header e Footer
 7. Criar a Pasta Pages
 8. Criar as Páginas Home, Sobre e Contatos
+9. Criar o arquivo de Rotas
 
 
 

@@ -1,16 +1,11 @@
-import Container from "./Components/Container"
-import Footer from "./Components/Footer"
-import Header from "./Components/Header"
-import Home from "./Pages/Home"
+
+
+import AppRoutes from "./routes"
 
 const App = () =>  {
   return (
     <>
-      <Header/>
-      <Container>
-        <Home/>
-      </Container>
-      <Footer/>
+      <AppRoutes/>
     </>
   )
 }
