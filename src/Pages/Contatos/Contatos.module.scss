@@ -11,18 +11,18 @@
 
     h1 {
         font-size: 22px;
-        text-align: center;
+        @include m.text-align(center);
     }
 
     h2 {
         font-size: 14px;
         text-transform: uppercase;
-        text-align: center;
+        @include m.text-align(center);
     }
 
     span {
         font-size: 14px;
-        text-align: center;
+        @include m.text-align(center);
     }
 
     .telefone,
