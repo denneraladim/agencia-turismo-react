@@ -1,18 +1,14 @@
 @use "../../styles/colors" as c;
+@use "../../styles/mixins" as m;
 
 .sobre {
     width: 100%;
     min-height: 85vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include m.flex-center-column;
     padding: 10px 10px 40px;
 
     .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include m.flex-center-column;
         gap: 1.5rem;
 
         img {

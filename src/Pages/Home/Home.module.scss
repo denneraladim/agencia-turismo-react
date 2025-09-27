@@ -1,14 +1,11 @@
 @use "../../styles/colors" as c;
-
+@use "../../styles/mixins" as m;
 
 .home {
     width: 100%;
     min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    @include m.flex-center-column;
+    @include m.text-align(center);
     padding: 20px;
     gap: 24px;
 
