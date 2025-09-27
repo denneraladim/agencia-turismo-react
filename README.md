@@ -14,6 +14,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 **`React`**
 **`TypeScript`**
 **`Sass (pré-processador CSS)`**
+**`React-router-dom`**
 
 ## Documentação
 
@@ -21,6 +22,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 - [react](https://react.dev/)
 - [sass](https://sass-lang.com/)
 - [typeScript](https://www.typescriptlang.org/)
+-[reactrouter](https://reactrouter.com/)
 
 ## Clonar o Repositório:
 
@@ -38,6 +40,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 ## Instalar as Dependências
 
     npm install sass
+    npm install react-router-dom
 
 ## Etapas do Desenvolvimento
 
@@ -48,7 +51,7 @@ Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeS
 5. Criar o Componente Header,Footer e Container
 6. Criar o Media Query do Header e Footer
 7. Criar a Pasta Pages
-8. Criar as Páginas Home,Sobre e Contatos
+8. Criar as Páginas Home, Sobre e Contatos
 
 
 
