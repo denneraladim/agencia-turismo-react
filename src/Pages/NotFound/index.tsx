@@ -1,7 +1,8 @@
 
+import type { JSX } from "react";
 import styles from "./NotFound.module.scss";
 
-const NotFound = () => {
+const NotFound = ():JSX.Element => {
     return (
 
         <section className={styles.container404}>
