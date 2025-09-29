@@ -4,6 +4,7 @@ import PageBase from "./Pages/PageBase";
 import Home from "./Pages/Home";
 import Sobre from "./Pages/Sobre";
 import Contatos from "./Pages/Contatos";
+import NotFound from "./Pages/NotFound";
 
 const AppRoutes = () => {
     return (
@@ -13,6 +14,7 @@ const AppRoutes = () => {
                     <Route index element={ <Home/>}/>
                     <Route path="/sobre" element={ <Sobre/>}/>
                     <Route path="/contatos" element={ <Contatos/>}/>
+                    <Route path="*" element={ <NotFound/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
