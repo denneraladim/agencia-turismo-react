@@ -6,7 +6,7 @@
   min-height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   img {
     height: 350px;
@@ -29,15 +29,19 @@
     font-weight: bold;
     border: 0;
     border-radius: 7px;
-    cursor: pointer;   
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
   }
 
   .btn_blue {
-     background-color: c.$color-primary; 
-     color: c.$color-white;
+    background-color: c.$color-primary;
+    color: c.$color-white;
 
-      &:hover {
-        background-color: c.$color-red;
+    &:hover {
+      background-color: c.$color-red;
     }
   }
 }
@@ -51,12 +55,6 @@
 //   text-align: left;
 //   gap: 40px;
 //   padding: 70px 40px;
-
-//   .apresentacao {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 20px;
-//     flex: 1;
 
 //     p {
 //     font-size: 48px;
