@@ -1,1 +1,54 @@
 
+@use "../../styles/colors";
+
+.container404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo2 {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .texto_grande {
+        font-size: 120px;
+        color: $ColorPage404;
+        font-weight: bold;
+    }
+
+    .texto_red {
+        font-size: 18px;
+        color: $ColorPage404;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .titulo2 {
+        font-size: 24px;
+    }
+
+    .textos {
+        .texto_grande {
+            font-size: 300px;
+        }
+
+        .texto_red {
+            font-size: 24px;
+        }
+    }
+}
