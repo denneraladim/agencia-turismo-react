@@ -1,7 +1,9 @@
 
-@use "../../styles/colors";
+@use "../../styles/colors" as c;
+@use "../../styles/mixins"as m;
 
 .container404 {
+    @include m.flex-center-column;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,20 +19,17 @@
 }
 
 .textos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   @include  m.flex-center-column;
 
     .texto_grande {
         font-size: 120px;
-        color: $ColorPage404;
+        color: c.$color-red;
         font-weight: bold;
     }
 
     .texto_red {
         font-size: 18px;
-        color: $ColorPage404;
+        color: c.$color-red;
         font-weight: bold;
         margin-top: 10px;
     }
