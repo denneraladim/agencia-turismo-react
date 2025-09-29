@@ -6,18 +6,13 @@
   min-height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  gap: 40px;
-  padding: 70px 40px;
+  justify-content: space-around;
 
-  .apresentacao {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex: 1;
+  img {
+    height: 350px;
+  }
 
-    p {
+  p {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
@@ -25,7 +20,6 @@
 
   span {
     color: c.$color-primary;
-  }
   }
 
   .btn {
@@ -35,33 +29,79 @@
     font-weight: bold;
     border: 0;
     border-radius: 7px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+    cursor: pointer;   
   }
 
   .btn_blue {
-    background-color: c.$color-primary;
-    color: c.$color-white;
+     background-color: c.$color-primary; 
+     color: c.$color-white;
 
-    &:hover {
-      background-color: c.$color-blue-light;
-    }
-  }
-
-  figure {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      width: 100%;
-      max-width: 500px;
-      height: auto;
+      &:hover {
+        background-color: c.$color-red;
     }
   }
 }
 
+// .home {
+//   width: 100%;
+//   min-height: 90vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   text-align: left;
+//   gap: 40px;
+//   padding: 70px 40px;
+
+//   .apresentacao {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 20px;
+//     flex: 1;
+
+//     p {
+//     font-size: 48px;
+//     font-weight: bold;
+//     margin-bottom: 16px;
+//   }
+
+//   span {
+//     color: c.$color-primary;
+//   }
+//   }
+
+//   .btn {
+//     width: 250px;
+//     height: 50px;
+//     font-size: 18px;
+//     font-weight: bold;
+//     border: 0;
+//     border-radius: 7px;
+//     cursor: pointer;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-decoration: none;
+//   }
+
+//   .btn_blue {
+//     background-color: c.$color-primary;
+//     color: c.$color-white;
+
+//     &:hover {
+//       background-color: c.$color-blue-light;
+//     }
+//   }
+
+//   figure {
+//     flex: 1;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     img {
+//       width: 100%;
+//       max-width: 500px;
+//       height: auto;
+//     }
+//   }
+// }
