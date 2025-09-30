@@ -7,6 +7,7 @@
     min-height: 90vh;
     @include m.flex-center-column;
      padding: 20px 20px 40px;
+     padding-bottom: 40px;
 
     .content {
         display: flex;
@@ -54,8 +55,3 @@
     }
 }
 
-@media (max-width: 480px){
-    .sobre {
-        padding-bottom: 40px;
-    }
-}
