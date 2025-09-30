@@ -56,7 +56,9 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 12. Criar o mixins com o SASS
 13. Criar a Responsividade 
 
-
-
 ##  Funcionalidades
 
+ - Navegação entre páginas (Home, Sobre, Contatos e Not Found) usando React Router Dom
+-  Layout responsivo, adaptando-se a diferentes tamanhos de tela
+-  Estrutura de componentes reutilizáveis (Header, Footer e Container)
+-  Estilização organizada com Sass e uso de mixins para consistência visual
