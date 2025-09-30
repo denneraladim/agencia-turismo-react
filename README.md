@@ -54,6 +54,7 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 10. Criar as paginas Home, Sobre, Contatos e Not Found
 11. Criar a pagina Base
 12. Criar o mixins com o SASS
+13. Criar a Responsividade 
 
 
 
