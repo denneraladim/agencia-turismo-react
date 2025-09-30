@@ -49,10 +49,13 @@
 
             img {
                 max-width: 50%;
-                padding-bottom: 40px;
             }
         }
     }
 }
 
-
+@media (max-width: 480px){
+    .sobre {
+        padding-bottom: 40px;
+    }
+}
