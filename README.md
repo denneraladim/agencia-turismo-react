@@ -1,9 +1,9 @@
 
 # Agencia Turismo React
 
+O projeto está publicado na Vercel:[Acessar Projeto]() (Abre em uma nova aba)
 
 Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**  e Responsividade.
-
 
 
 ##  Tecnologias Utilizadas
@@ -43,18 +43,19 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 ## Etapas do Desenvolvimento
 
 1. Configuração do Projeto Inicial React e TypeScript
-2. Instalar a biblioteca SASS
-3. Criar o arquivo de estilos Globais
-4. Criar a Pasta Components
-5. Criar o Componente Header,Footer e Container
-6. Criar o Media Query do Header e Footer
-7. Criar a Pasta Pages
-8. Criar as Páginas Home, Sobre e Contatos
-9. Criar o arquivo de Rotas
-10. Criar as paginas Home, Sobre, Contatos e Not Found
-11. Criar a pagina Base
-12. Criar o mixins com o SASS
-13. Criar a Responsividade 
+2. Inserido a Font Roboto do Google
+3. Instalar a biblioteca SASS
+4. Criar o arquivo de estilos Globais
+5. Criar a Pasta Components
+6. Criar o Componente Header,Footer e Container
+7. Criar o Media Query do Header e Footer
+8. Criar a Pasta Pages
+9. Criar as Páginas Home, Sobre e Contatos
+10. Criar o arquivo de Rotas
+11. Criar as paginas Home, Sobre, Contatos e Not Found
+12. Criar a pagina Base
+13. Criar o mixins com o SASS
+14. Criar a Responsividade 
 
 ##  Funcionalidades
 
