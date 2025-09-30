@@ -8,7 +8,7 @@ const Sobre = ():JSX.Element => {
     return (
          <section className={styles.sobre}>
         <div className={styles.content}>
-          <img src={SobreEmpresa} alt="Sobre a empresa" className={styles.agencia} />
+          <img src={SobreEmpresa} alt="Sobre a empresa"/>
           <div className={styles.textos}>
             <h2>Sobre</h2>
             <p>
