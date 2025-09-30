@@ -42,7 +42,6 @@
 
 @media (max-width: 768px){
     .sobre {
-        padding-bottom: 40px;
         .content{
             flex-direction: column;
             padding-inline: 28px;
@@ -50,8 +49,10 @@
 
             img {
                 max-width: 50%;
+                padding-bottom: 40px;
             }
         }
     }
 }
+
 
