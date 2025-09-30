@@ -30,9 +30,7 @@
     border: 0;
     border-radius: 7px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include m.flex-center;
     text-decoration: none;
   }
 

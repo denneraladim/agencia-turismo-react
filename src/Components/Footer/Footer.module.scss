@@ -1,4 +1,5 @@
 @use "../../styles/colors" as c;
+@use "../../styles/mixins" as m;
 
 .footer {
     width: 100%;
@@ -7,9 +8,7 @@
     color: c.$color-gray;
     font-size: 22px;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include m.flex-center;
     position: fixed;
     bottom: 0;
 
