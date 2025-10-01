@@ -3,7 +3,7 @@
 
 O projeto está publicado na Vercel:[Acessar Projeto](https://agencia-turismo-react.vercel.app/) (Abre em uma nova aba)
 
-Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**, **`Test Unitário`**  e Responsividade.
+Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**, **`Test Unitário`**  e **`Responsividade`**.
 
 
 ##  Tecnologias Utilizadas
