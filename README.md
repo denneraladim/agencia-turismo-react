@@ -68,5 +68,5 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 -  Layout responsivo, adaptando-se a diferentes tamanhos de tela
 -  Estrutura de componentes reutilizáveis (Header, Footer e Container)
 -  Estilização organizada com Sass e uso de mixins para consistência visual
--  Criado o Test Unitário dos Componentes Header e Footer
+-  Criado o Test Unitário dos Componentes Header, Footer e Container
 
