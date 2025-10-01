@@ -13,6 +13,7 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 **`TypeScript`**
 **`Sass (pré-processador CSS)`**
 **`React-router-dom`**
+**`Vitest e React Testing Library (Teste Unitário)`**
 
 ## Documentação
 
@@ -35,7 +36,13 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 
 ## Execute a aplicação
 
-     npm run dev  
+     npm run dev
+
+## Rodar os Testes Unitários
+
+    npm test (roda todos os testes uma vez)
+    npm run test:watch  (roda os testes em modo observação)
+
 
 ## Instalar as Dependências
 
@@ -46,27 +53,52 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 
 ## Etapas do Desenvolvimento
 
-1. Configuração do Projeto Inicial React e TypeScript
-2. Inserido a Font Roboto do Google
-3. Instalar a biblioteca SASS
-4. Criar o arquivo de estilos Globais
-5. Criar a Pasta Components
-6. Criar o Componente Header,Footer e Container
-7. Criar o Media Query do Header e Footer
-8. Criar a Pasta Pages
-9. Criar as Páginas Home, Sobre e Contatos
-10. Criar o arquivo de Rotas
-11. Criar as paginas Home, Sobre, Contatos e Not Found
-12. Criar a pagina Base
-13. Criar o mixins com o SASS
-14. Criar a Responsividade
-15. Criar Teste Unitário
+1. Configuração inicial do projeto com React e TypeScript
+
+2. Inserção da fonte Roboto do Google
+
+3. Configuração do SASS e criação de estilos globais
+
+4. Criação da pasta Components: Header, Footer e Container
+
+5. Implementação do Header e Footer com responsividade
+
+6. Criação da pasta Pages: Home, Sobre, Contatos e NotFound
+
+7. Configuração do React Router Dom para navegação entre páginas
+
+8. Criação do componente Base para envolver todas as páginas com Header, Footer e Container, garantindo layout consistente
+
+9. Criação de mixins e media queries para responsividade
+
+10. Implementação do layout responsivo para diferentes tamanhos de tela
+
+11. Criação de Testes Unitários para os componentes reutilizáveis
+
+## Testes Unitários
+
+- Criados com Vitest e React Testing Library
+
+- Cobrem os seguintes componentes:
+
+1. Container: garante que os children são renderizados corretamente
+
+2. Header: verifica se o logo e links de navegação aparecem
+
+3. Footer: verifica se o texto do rodapé é renderizado
+
+4. Foco em comportamento do componente, garantindo que a interface funcione como esperado
 
 ##  Funcionalidades
 
- - Navegação entre páginas (Home, Sobre, Contatos e Not Found) usando React Router Dom
--  Layout responsivo, adaptando-se a diferentes tamanhos de tela
--  Estrutura de componentes reutilizáveis (Header, Footer e Container)
--  Estilização organizada com Sass e uso de mixins para consistência visual
--  Criado o Test Unitário dos Componentes Header, Footer e Container
+ - Navegação entre páginas (Home, Sobre, Contatos, NotFound)
+
+- Layout responsivo para diferentes tamanhos de tela
+
+- Estrutura de componentes reutilizáveis
+
+- Estilização organizada com Sass e mixins
+
+- Componentes testados com testes unitários
+
 
