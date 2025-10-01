@@ -21,6 +21,8 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 - [sass](https://sass-lang.com/)
 - [typeScript](https://www.typescriptlang.org/)
 - [reactrouter](https://reactrouter.com/)
+- [vitest](https://vitest.dev/)
+- [testing-library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## Clonar o Repositório:
 
@@ -39,6 +41,8 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 
     npm install sass
     npm install react-router-dom
+    npm install -D vitest @testing-library/react @testing-library/jest-dom @testing-library/user-event @types/jest
+
 
 ## Etapas do Desenvolvimento
 
@@ -55,7 +59,8 @@ Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`G
 11. Criar as paginas Home, Sobre, Contatos e Not Found
 12. Criar a pagina Base
 13. Criar o mixins com o SASS
-14. Criar a Responsividade 
+14. Criar a Responsividade
+15. Criar Teste Unitário
 
 ##  Funcionalidades
 
