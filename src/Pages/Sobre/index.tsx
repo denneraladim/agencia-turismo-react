@@ -2,7 +2,7 @@ import type { JSX } from "react";
 
 import styles from "./Sobre.module.scss";
 
-import SobreEmpresa from "../img/sobre-empresa.jpg";
+import SobreEmpresa from "../img/undraw_team-work_i1f3.svg";
 
 const Sobre = ():JSX.Element => {
     return (
