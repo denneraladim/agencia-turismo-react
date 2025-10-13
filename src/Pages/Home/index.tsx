@@ -10,11 +10,11 @@ const Home = (): JSX.Element => {
         <>
             <section className={styles.home}>
                 <div>
-                    <p>
+                    <h1>
                         Bem Vindo <br />
                         <span>à Nossa Agência</span> <br />
                         Travel
-                    </p>
+                    </h1>
                     <Link to="/sobre" className={`${styles.btn} ${styles.btn_blue}`}>
                         Saiba mais
                     </Link>
