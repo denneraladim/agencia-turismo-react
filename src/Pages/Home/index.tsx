@@ -15,7 +15,7 @@ const Home = (): JSX.Element => {
                         Travel</h1>
                     <Link to="/sobre" className={`${styles.btn} ${styles.btn_blue}`}>Saiba mais</Link>
                 </div>
-                <img src={HomeImage} alt="Image da Home" />
+                <img src={HomeImage} alt="Ilustração de avião azul representando viagens"/>
             </section>
         </>
 
