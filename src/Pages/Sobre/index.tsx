@@ -11,12 +11,10 @@ const Sobre = ():JSX.Element => {
           <img src={SobreEmpresa} alt="Sobre a empresa"/>
           <div className={styles.textos}>
             <h1>Sobre</h1>
-            <p>
-              Somos uma agência de turismo apaixonada por criar experiências
+            <p>Somos uma agência de turismo apaixonada por criar experiências
               inesquecíveis para viajantes de todo o mundo. Com anos de
               experiência no setor, nossa equipe está empenhada em proporcionar
-              viagens excepcionais, explorando destinos emocionantes e  proporcionando momentos únicos aos nossos clientes.
-            </p>
+              viagens excepcionais, explorando destinos emocionantes e  proporcionando momentos únicos aos nossos clientes.</p>
           </div>
         </div>
       </section>
