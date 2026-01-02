@@ -56,6 +56,7 @@ O objetivo dos testes é garantir que a interface funcione conforme esperado e f
 
 
 ## Como Executar o Projeto
+    https://github.com/denneraladim/agencia-turismo-react.git
     npm install
     npm run dev
 
