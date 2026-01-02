@@ -1,104 +1,87 @@
 
 # Agencia Turismo React
 
-O projeto está publicado na Vercel:[Acessar Projeto](https://agencia-turismo-react.vercel.app/) (Abre em uma nova aba)
+Aplicação front-end de uma agência de turismo fictícia, desenvolvida com foco em boas práticas de desenvolvimento, organização de componentes, responsividade e testes unitários. O projeto simula um site institucional com múltiplas páginas, navegação fluida e layout adaptável a diferentes dispositivos.
 
-Essa aplicação da Agencia de Turismo Ficticia foi desenvolvida utilizando **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**, **`Test Unitário`**  e **`Responsividade`**
+🔗 Projeto online: https://agencia-turismo-react.vercel.app/
 
+## Diferenciais do Projeto
+
+- Organização de componentes reutilizáveis
+- Navegação entre páginas utilizando React Router
+- Estilização organizada com Sass
+- Layout responsivo
+- Testes unitários utilizando Vitest e React Testing Library
+- Código desenvolvido com TypeScript
+
+## Estrutura do Projeto
+
+O projeto segue uma organização baseada em componentes, com separação clara entre páginas, componentes reutilizáveis e estilos globais.
+
+- **components**: Componentes reutilizáveis da aplicação (Header, Footer, Container), cada um com seus próprios estilos e testes.
+- **pages**: Páginas da aplicação (Home, Sobre, Contato, NotFound), organizadas por rota.
+- **styles**: Estilos globais, variáveis de cores e mixins Sass utilizados em toda a aplicação.
+- **App.tsx**: Configuração principal da aplicação e rotas.
+- **main.tsx**: Ponto de entrada do React.
+
+## Funcionalidades
+
+- Navegação entre páginas institucionais (Home, Sobre, Contato e NotFound)
+- Layout responsivo para diferentes tamanhos de tela
+- Estrutura de componentes reutilizáveis
+- Organização de estilos com Sass
+- Componentes cobertos por testes unitários
 
 ##  Tecnologias Utilizadas
 
-**`Vite`**
-**`React`**
-**`TypeScript`**
-**`Sass (pré-processador CSS)`**
-**`React-router-dom`**
-**`Vitest e React Testing Library (Teste Unitário)`**
-
-## Documentação
-
-- [vite](https://vitejs.dev/)
-- [react](https://react.dev/)
-- [sass](https://sass-lang.com/)
-- [typeScript](https://www.typescriptlang.org/)
-- [reactrouter](https://reactrouter.com/)
-- [vitest](https://vitest.dev/)
-- [testing-library](https://testing-library.com/docs/react-testing-library/intro/)
-
-## Clonar o Repositório:
-
-    git clone https://github.com/denneraladim/agencia-turismo-react.git
-
- ## Criação do projeto com vite, react e TypeScript (se ainda não tiver) e entrar na pasta: 
-
-    npm create vite@latest agencia-turismo-react
-    cd agencia-turismo-react
-
-## Execute a aplicação
-
-     npm run dev
-
-## Rodar os Testes Unitários
-
-    npm test (roda todos os testes uma vez)
-    npm run test:watch  (roda os testes em modo observação)
-
-
-## Instalar as Dependências
-
-    npm install sass
-    npm install react-router-dom
-    npm install -D vitest @testing-library/react @testing-library/jest-dom @testing-library/user-event @types/jest
-
-
-## Etapas do Desenvolvimento
-
-1. Configuração inicial do projeto com React e TypeScript
-
-2. Inserção da fonte Roboto do Google
-
-3. Configuração do SASS e criação de estilos globais
-
-4. Criação da pasta Components: Header, Footer e Container
-
-5. Implementação do Header e Footer com responsividade
-
-6. Criação da pasta Pages: Home, Sobre, Contatos e NotFound
-
-7. Configuração do React Router Dom para navegação entre páginas
-
-8. Criação do componente Base para envolver todas as páginas com Header, Footer e Container, garantindo layout consistente
-
-9. Criação de mixins e media queries para responsividade
-
-10. Implementação do layout responsivo para diferentes tamanhos de tela
-
-11. Criação de Testes Unitários para os componentes reutilizáveis
+- **React**
+- **TypeScript**
+- **Vite**
+- **Sass**
+- **React Router DOM**
+- **Vitest**
+- **React Testing Library**
 
 ## Testes Unitários
 
-- Criados com Vitest e React Testing Library
+Os testes foram desenvolvidos com **Vitest** e **React Testing Library**, com foco no comportamento dos componentes.
 
-- Cobrem os seguintes componentes:
+Componentes testados:
 
-1. Container: garante que os children são renderizados corretamente
+- **Container**: garante a renderização correta dos children
+- **Header**: valida exibição do logo e links de navegação
+- **Footer**: valida renderização do conteúdo do rodapé
 
-2. Header: verifica se o logo e links de navegação aparecem
+O objetivo dos testes é garantir que a interface funcione conforme esperado e facilitar a manutenção do código.
 
-3. Footer: verifica se o texto do rodapé é renderizado
 
-4. Foco em comportamento do componente, garantindo que a interface funcione como esperado
+## Como Executar o Projeto
+    npm install
+    npm run dev
 
-##  Funcionalidades
+## Rodar os Testes Unitários
 
- - Navegação entre páginas (Home, Sobre, Contatos, NotFound)
+    npm test
+    npm run test:watch (roda os testes em modo observação)
 
-- Layout responsivo para diferentes tamanhos de tela
 
-- Estrutura de componentes reutilizáveis
+## Responsividade
 
-- Estilização organizada com Sass e mixins
+O layout foi desenvolvido com abordagem mobile first, utilizando media queries e mixins do Sass para garantir uma boa experiência em dispositivos móveis e adaptação para telas maiores.
 
-- Componentes testados com testes unitários
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
