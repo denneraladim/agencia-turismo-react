@@ -62,7 +62,7 @@ O objetivo dos testes é garantir que a interface funcione conforme esperado e f
 
 ## Rodar os Testes Unitários
 
-    npm test
+    npm run test
     npm run test:watch (roda os testes em modo observação)
 
 
