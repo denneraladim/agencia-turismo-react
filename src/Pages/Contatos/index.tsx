@@ -6,14 +6,29 @@ import ContatosImg from "../img/contact.svg";
 
 const Contatos = ():JSX.Element => {
     return (
-        <section className={styles.contatos}>
-        <h1>Contatos</h1>
-        <h2>Horário de Funcionamento:</h2>
-        <span>Segunda à Sexta Feira de 09h às 18h</span>
-        <h1 className={styles.telefone}>Telefone:(031)-99999-0000</h1>
-        <h1 className={styles.email}>e-mail:</h1>
-        <span>agenciatravel@gmail.com</span>
-        <img src={ContatosImg}alt="Imagem de Contatos"/>
+        <section className={styles.contatos} aria-labelledby="titulo-contatos">
+        <h1 id="titulo-contatos">Contatos</h1>
+
+        <p>
+          <strong>Horário de Funcionamento:</strong><br />
+          <span>Segunda à Sexta Feira, das 09h às 18h</span>
+       </p>
+        
+
+        <address>
+           <p className={styles.telefone}>
+          Telefone: <a href="tel:+5531999990000">(31) 99999-0000</a>
+        </p>
+         <p className={styles.email}>
+          E-mail: <a href="mailto:agenciatravel@gmail.com">
+            agenciatravel@gmail.com
+          </a>
+        </p>
+        </address>
+
+       <img 
+       src={ContatosImg}
+       alt="Ilustração representando os canais de contato da agência de turismo"/>
       </section>
     )
 }

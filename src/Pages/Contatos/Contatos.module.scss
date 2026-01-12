@@ -3,38 +3,69 @@
 @use "../../styles/mixins" as m;
 
 .contatos {
-    width: 100%;
-    min-height: 90vh;
-    @include m.flex-center-column;
-    gap: 15px;
-    padding: 20px 10px 0 10px;
+  width: 100%;
+  min-height: 90vh;
+  @include m.flex-center-column;
+  gap: 15px;
+  padding: 20px 10px 0 10px;
 
-    h1 {
-        font-size: 32px;
-        @include m.text-align(center);
-    }
+  h1 {
+    font-size: 32px;
+    @include m.text-align(center);
+  }
 
-    h2 {
-        font-size: 24px;
-        text-transform: uppercase;
-        @include m.text-align(center);
-    }
+  p {
+    font-size: 18px;
+    @include m.text-align(center);
+    margin: 0;
+    margin-bottom: 12px;
+  }
 
-    span {
-        font-size: 14px;
-        @include m.text-align(center);
-    }
+  span {
+    display: block;
+    margin-top: 6px;
+    font-size: 16px;
+  }
 
-    .telefone,
-    .email {
-        font-size: 18px;
-        margin: 0;
-    }
 
-    img {
-        width: 80%;
-        max-width: 300px;
-        height: auto;
-        display: block;
-    }
+  address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .telefone,
+  .email {
+    font-size: 18px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
 }
