@@ -14,6 +14,28 @@ Aplicação front-end de uma agência de turismo fictícia, desenvolvida com foc
 - Testes unitários utilizando Vitest e React Testing Library
 - Código desenvolvido com TypeScript
 
+
+## Acessibilidade Básica
+
+-  A aplicação foi desenvolvida considerando princípios de acessibilidade básica, visando melhorar a experiência de uso para todos os usuários, incluindo pessoas que utilizam tecnologias assistivas.
+
+### As principais práticas aplicadas incluem:
+
+-  Uso de HTML semântico (section, header, footer, address, nav) para melhor interpretação por leitores de tela
+
+-  Estrutura adequada de títulos hierárquicos (h1, h2) para facilitar a navegação por tecnologias assistivas
+
+-  Associação de seções com seus respectivos títulos utilizando aria-labelledby
+
+-  Links de contato acessíveis (tel: e mailto:), facilitando o uso em dispositivos móveis e leitores de tela
+
+-  Textos alternativos (alt) descritivos em imagens ilustrativas
+
+-  Conteúdo textual claro, evitando dependência exclusiva de estilos visuais para transmitir informações
+
+-  O foco da acessibilidade no projeto é garantir uma estrutura compreensível, navegável e semântica, alinhada às boas práticas recomendadas para aplicações front-end.
+
+
 ## Estrutura do Projeto
 
 O projeto segue uma organização baseada em componentes, com separação clara entre páginas, componentes reutilizáveis e estilos globais.
@@ -69,6 +91,7 @@ O objetivo dos testes é garantir que a interface funcione conforme esperado e f
 ## Responsividade
 
 O layout foi desenvolvido com abordagem mobile first, utilizando media queries e mixins do Sass para garantir uma boa experiência em dispositivos móveis e adaptação para telas maiores.
+
 
 
 
