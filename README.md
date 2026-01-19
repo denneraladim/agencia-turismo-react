@@ -74,15 +74,17 @@ O projeto segue uma organização baseada em componentes, com separação clara 
 
 ## Testes Unitários
 
-Os testes foram desenvolvidos com **Vitest** e **React Testing Library**, com foco no comportamento dos componentes.
+Os testes foram desenvolvidos com Vitest e React Testing Library, com foco no comportamento dos componentes.
 
 Componentes testados:
 
-- **Container**: garante a renderização correta dos children
-- **Header**: valida exibição do logo e links de navegação
-- **Footer**: valida renderização do conteúdo do rodapé
+- **Container**: renderização correta dos children
 
-O objetivo dos testes é garantir que a interface funcione conforme esperado e facilitar a manutenção do código.
+- **Header**: exibição do logo e links de navegação
+
+- **Footer**: renderização do conteúdo do rodapé
+
+O objetivo é garantir o funcionamento esperado da interface e facilitar a manutenção do código.
 
 
 ## Como Executar o Projeto
