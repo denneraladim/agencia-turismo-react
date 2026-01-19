@@ -93,14 +93,13 @@ O objetivo é garantir o funcionamento esperado da interface e facilitar a manut
     npm run dev
 
 ## Rodar os Testes Unitários
-
     npm run test
     npm run test:watch (roda os testes em modo observação)
 
 
 ## Responsividade
 
-O layout foi desenvolvido com abordagem mobile first, utilizando media queries e mixins do Sass para garantir uma boa experiência em dispositivos móveis e adaptação para telas maiores.
+O layout foi desenvolvido utilizando media queries para garantir uma boa experiência em dispositivos móveis e adaptação para telas maiores.
 
 
 
