@@ -31,19 +31,24 @@
     }
 }
 
-
 @media (min-width: 768px) {
-    .titulo2 {
-        font-size: 20px;
+  .titulo2 {
+    font-size: 40px;
+  }
+
+  .textos {
+    .texto_grande {
+      font-size: 100px;
     }
 
-    .textos {
-        .texto_grande {
-            font-size: 60px;
-        }
-
-        .texto_red {
-            font-size: 24px;
-        }
+    .texto_red {
+      font-size: 24px;
     }
+  }
 }
+
+
+
+
+
+    
