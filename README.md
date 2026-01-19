@@ -9,12 +9,19 @@ O projeto simula um site institucional com múltiplas páginas, navegação flui
 
 ## Diferenciais do Projeto
 
-- Organização de componentes reutilizáveis
-- Navegação entre páginas utilizando React Router
-- Estilização organizada com Sass
+- Componentização reutilizável
+
+- Navegação entre páginas com React Router
+
+- Estilização modular com Sass
+
 - Layout responsivo
-- Testes unitários utilizando Vitest e React Testing Library
-- Código desenvolvido com TypeScript
+
+- Testes unitários com Vitest e React Testing Library
+
+- Código tipado com TypeScript
+
+- Aplicação de princípios básicos de acessibilidade 
 
 
 ## Acessibilidade Básica
