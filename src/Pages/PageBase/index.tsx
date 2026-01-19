@@ -5,13 +5,16 @@ import Footer from "../../Components/Footer"
 
 const PageBase = () => {
     return (
-        <main>
-            <Header/>
-            <Container>
-                <Outlet/>
-            </Container>
-            <Footer/>
-        </main>
+       <>
+  <Header />
+  <main>
+    <Container>
+      <Outlet />
+    </Container>
+  </main>
+  <Footer />
+</>
+
     )
 }
 
