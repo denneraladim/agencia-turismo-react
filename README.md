@@ -55,13 +55,15 @@ O projeto segue uma organização baseada em componentes, com separação clara 
 - **App.tsx**: Configuração principal da aplicação e rotas.
 - **main.tsx**: Ponto de entrada do React.
 
+
 ## Funcionalidades
 
 - Navegação entre páginas institucionais (Home, Sobre, Contato e NotFound)
 - Layout responsivo para diferentes tamanhos de tela
-- Estrutura de componentes reutilizáveis
+- Estrutura baseada em componentes reutilizáveis
 - Organização de estilos com Sass
 - Componentes cobertos por testes unitários
+
 
 ##  Tecnologias Utilizadas
 
