@@ -1,7 +1,9 @@
 
 # Agencia Turismo React
 
-Aplicação front-end de uma agência de turismo fictícia, desenvolvida com foco em boas práticas de desenvolvimento, organização de componentes, responsividade e testes unitários. O projeto simula um site institucional com múltiplas páginas, navegação fluida e layout adaptável a diferentes dispositivos.
+Aplicação front-end de uma agência de turismo fictícia, desenvolvida com React e TypeScript, com foco em boas práticas de desenvolvimento, componentização, responsividade, testes unitários e acessibilidade básica.
+
+O projeto simula um site institucional com múltiplas páginas, navegação fluida e layout adaptável a diferentes dispositivos.
 
 🔗 Projeto online: https://agencia-turismo-react.vercel.app/
 
