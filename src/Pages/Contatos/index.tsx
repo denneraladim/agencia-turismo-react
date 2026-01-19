@@ -1,10 +1,8 @@
-import type { JSX } from "react";
-
 import styles from "./Contatos.module.scss";
 
 import ContatosImg from "../img/contact.svg";
 
-const Contatos = ():JSX.Element => {
+const Contatos = () => {
     return (
         <section className={styles.contatos} aria-labelledby="titulo-contatos">
         <h1 id="titulo-contatos">Contatos</h1>
