@@ -26,23 +26,18 @@ O projeto simula um site institucional com múltiplas páginas, navegação flui
 
 ## Acessibilidade Básica
 
--  A aplicação foi desenvolvida considerando princípios de acessibilidade básica, visando melhorar a experiência de uso para todos os usuários, incluindo pessoas que utilizam tecnologias assistivas.
+-  A aplicação foi desenvolvida considerando princípios de **acessibilidade básica**, garantindo uma experiência de uso melhor para todos os usuários, inclusive aqueles que utilizam tecnologias assistivas.
 
 ### As principais práticas aplicadas incluem:
 
--  Uso de HTML semântico (section, header, footer, address, nav) para melhor interpretação por leitores de tela
+- **HTML semântico**: uso de header, nav, footer e address  para estrutura clara e interpretação correta por leitores de tela.
+- **Hierarquia de títulos**: estrutura adequada de h1 e h2 para facilitar navegação e compreensão do conteúdo.
+- **Associação de seções aos títulos**: implementação de aria-labelledby.
+- **Links de contato acessíveis**: tel e mailto para fácil utilização em dispositivos móveis e leitores de tela.
+- **Textos alternativos em imagens**: uso de alt descritivo para melhor experiência de leitura.
+- **Conteúdo textual claro**: evita depender exclusivamente de estilos visuais para transmitir informações.
 
--  Estrutura adequada de títulos hierárquicos (h1, h2) para facilitar a navegação por tecnologias assistivas
-
--  Associação de seções com seus respectivos títulos utilizando aria-labelledby
-
--  Links de contato acessíveis (tel: e mailto:), facilitando o uso em dispositivos móveis e leitores de tela
-
--  Textos alternativos (alt) descritivos em imagens ilustrativas
-
--  Conteúdo textual claro, evitando dependência exclusiva de estilos visuais para transmitir informações
-
--  O foco da acessibilidade no projeto é garantir uma estrutura compreensível, navegável e semântica, alinhada às boas práticas recomendadas para aplicações front-end.
+ O foco da aplicação é garantir uma **estrutura compreensível, navegável e semântica**, alinhada às melhores práticas de desenvolvimento Front-End.
 
 ## Estrutura do Projeto
 
@@ -86,7 +81,6 @@ Componentes testados:
 
 O objetivo é garantir o funcionamento esperado da interface e facilitar a manutenção do código.
 
-
 ## Como Executar o Projeto
     https://github.com/denneraladim/agencia-turismo-react.git
     npm install
@@ -95,7 +89,6 @@ O objetivo é garantir o funcionamento esperado da interface e facilitar a manut
 ## Rodar os Testes Unitários
     npm run test
     npm run test:watch (roda os testes em modo observação)
-
 
 ## Responsividade
 
