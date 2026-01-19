@@ -44,7 +44,6 @@ O projeto simula um site institucional com múltiplas páginas, navegação flui
 
 -  O foco da acessibilidade no projeto é garantir uma estrutura compreensível, navegável e semântica, alinhada às boas práticas recomendadas para aplicações front-end.
 
-
 ## Estrutura do Projeto
 
 O projeto segue uma organização baseada em componentes, com separação clara entre páginas, componentes reutilizáveis e estilos globais.
@@ -55,15 +54,13 @@ O projeto segue uma organização baseada em componentes, com separação clara 
 - **App.tsx**: Configuração principal da aplicação e rotas.
 - **main.tsx**: Ponto de entrada do React.
 
-
 ## Funcionalidades
 
 - Navegação entre páginas institucionais (Home, Sobre, Contato e NotFound)
 - Layout responsivo para diferentes tamanhos de tela
 - Estrutura baseada em componentes reutilizáveis
 - Organização de estilos com Sass
-- Componentes cobertos por testes unitários
-
+- Componentes cobertos por testes unitários.
 
 ##  Tecnologias Utilizadas
 
